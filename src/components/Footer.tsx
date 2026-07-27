@@ -53,16 +53,6 @@ export function Footer() {
                 <Github className="w-4 h-4" />
               </a>
               <a
-                href="https://your-portfolio.com" //Later Replace with your actual portfolio URL
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2.5 rounded-xl glass hover:bg-white/10 transition-all"
-                aria-label="Portfolio"
-              >
-                <Globe className="w-4 h-4" />
-              </a>
-
-              <a
                 href="https://www.linkedin.com/in/yraze"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,6 +60,15 @@ export function Footer() {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-4 h-4" />
+              </a>
+              <a
+                href="https://your-portfolio.com" //Later Replace with your actual portfolio URL
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 rounded-xl glass hover:bg-white/10 transition-all"
+                aria-label="Portfolio"
+              >
+                <Globe className="w-4 h-4" />
               </a>
               <a
                 href="mailto:hiiamyashraj@gmail.com"
