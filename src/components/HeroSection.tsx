@@ -2,14 +2,14 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
-import { iPhoneMockup as IPhoneMockup } from "./iPhoneMockup";
+import { PlantVisionCapsule } from "./PlantVisionCapsule";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-12">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-24">
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left Content */}
+          {/* Left Content - UNCHANGED */}
           <div className="space-y-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -91,14 +91,14 @@ export function HeroSection() {
             </motion.div>
           </div>
 
-          {/* Right - 3D iPhone */}
+          {/* Right - PlantVision Capsule */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
-            className="relative hidden lg:flex items-center justify-center"
+            className="relative hidden lg:flex items-center justify-center min-h-[600px]"
           >
-            <IPhoneMockup />
+            <PlantVisionCapsule />
           </motion.div>
         </div>
       </div>

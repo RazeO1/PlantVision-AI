@@ -1,4 +1,4 @@
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { ParallaxBackground } from "@/components/ParallaxBackground";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { FeaturesSection } from "@/components/FeaturesSection";
@@ -12,7 +12,7 @@ import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <main className="relative min-h-screen">
-      <AmbientBackground />
+      <ParallaxBackground />
       <Navbar />
       <HeroSection />
       <FeaturesSection />
