@@ -58,7 +58,7 @@ export function HeroSection() {
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/RazeO1/PlantVision-AI"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/5 border border-white/10 hover:bg-white/10 text-white font-medium rounded-full transition-all duration-300 backdrop-blur-xl"

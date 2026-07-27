@@ -23,7 +23,7 @@ const predictions: PredictionCard[] = [
     confidence: 98.4,
     severity: "Moderate",
     date: "2 min ago",
-    image: "public/images/showcase/1.jpg",
+    image: "/images/showcase/1.jpg",
     gradient: "from-emerald-900/80 to-teal-900/80",
   },
   {
@@ -33,7 +33,7 @@ const predictions: PredictionCard[] = [
     confidence: 96.7,
     severity: "Critical",
     date: "5 min ago",
-    image: "public/images/showcase/2.jpg",
+    image: "/images/showcase/2.jpg",
     gradient: "from-red-900/80 to-orange-900/80",
   },
   {
@@ -43,7 +43,7 @@ const predictions: PredictionCard[] = [
     confidence: 94.2,
     severity: "Low",
     date: "12 min ago",
-    image: "public/images/showcase/3.jpg",
+    image: "/images/showcase/3.jpg",
     gradient: "from-yellow-900/80 to-amber-900/80",
   },
   {
@@ -53,7 +53,7 @@ const predictions: PredictionCard[] = [
     confidence: 97.1,
     severity: "High",
     date: "18 min ago",
-    image: "public/images/showcase/4.jpg",
+    image: "/images/showcase/4.jpg",
     gradient: "from-purple-900/80 to-pink-900/80",
   },
   {
@@ -63,7 +63,7 @@ const predictions: PredictionCard[] = [
     confidence: 95.8,
     severity: "Moderate",
     date: "24 min ago",
-    image: "public/images/showcase/5.jpg",
+    image: "/images/showcase/5.jpg",
     gradient: "from-green-900/80 to-emerald-900/80",
   },
   {
@@ -73,7 +73,7 @@ const predictions: PredictionCard[] = [
     confidence: 93.5,
     severity: "High",
     date: "31 min ago",
-    image: "public/images/showcase/6.jpg",
+    image: "/images/showcase/6.jpg",
     gradient: "from-orange-900/80 to-red-900/80",
   },
   {
@@ -83,7 +83,7 @@ const predictions: PredictionCard[] = [
     confidence: 91.2,
     severity: "Low",
     date: "45 min ago",
-    image: "public/images/showcase/7.jpg",
+    image: "/images/showcase/7.jpg",
     gradient: "from-pink-900/80 to-rose-900/80",
   },
   {
@@ -93,7 +93,7 @@ const predictions: PredictionCard[] = [
     confidence: 89.7,
     severity: "Moderate",
     date: "1 hr ago",
-    image: "public/images/showcase/8.jpg",
+    image: "/images/showcase/8.jpg",
     gradient: "from-amber-900/80 to-yellow-900/80",
   },
 ];
