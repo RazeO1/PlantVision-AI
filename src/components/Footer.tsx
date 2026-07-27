@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Leaf, Github, Twitter, Mail } from "lucide-react";
+import { Leaf, Github, Linkedin, Globe, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -53,12 +53,23 @@ export function Footer() {
                 <Github className="w-4 h-4" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://your-portfolio.com" //Later Replace with your actual portfolio URL
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-xl glass hover:bg-white/10 transition-all"
+                aria-label="Portfolio"
               >
-                <Twitter className="w-4 h-4" />
+                <Globe className="w-4 h-4" />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/yraze"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 rounded-xl glass hover:bg-white/10 transition-all"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-4 h-4" />
               </a>
               <a
                 href="mailto:hiiamyashraj@gmail.com"
