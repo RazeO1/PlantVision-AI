@@ -1,0 +1,230 @@
+[
+  {
+    "id": 0,
+    "plant": "Apple",
+    "disease": "Apple scab",
+    "severity": "Unknown"
+  },
+  {
+    "id": 1,
+    "plant": "Apple",
+    "disease": "Black rot",
+    "severity": "Unknown"
+  },
+  {
+    "id": 2,
+    "plant": "Apple",
+    "disease": "Cedar apple rust",
+    "severity": "Unknown"
+  },
+  {
+    "id": 3,
+    "plant": "Apple",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 4,
+    "plant": "Blueberry",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 5,
+    "plant": "Cherry (including sour)",
+    "disease": "Powdery mildew",
+    "severity": "Unknown"
+  },
+  {
+    "id": 6,
+    "plant": "Cherry (including sour)",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 7,
+    "plant": "Corn (maize)",
+    "disease": "Cercospora leaf spot Gray leaf spot",
+    "severity": "Unknown"
+  },
+  {
+    "id": 8,
+    "plant": "Corn (maize)",
+    "disease": "Common rust ",
+    "severity": "Unknown"
+  },
+  {
+    "id": 9,
+    "plant": "Corn (maize)",
+    "disease": "Northern Leaf Blight",
+    "severity": "Unknown"
+  },
+  {
+    "id": 10,
+    "plant": "Corn (maize)",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 11,
+    "plant": "Grape",
+    "disease": "Black rot",
+    "severity": "Unknown"
+  },
+  {
+    "id": 12,
+    "plant": "Grape",
+    "disease": "Esca (Black Measles)",
+    "severity": "Unknown"
+  },
+  {
+    "id": 13,
+    "plant": "Grape",
+    "disease": "Leaf blight (Isariopsis Leaf Spot)",
+    "severity": "Unknown"
+  },
+  {
+    "id": 14,
+    "plant": "Grape",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 15,
+    "plant": "Orange",
+    "disease": "Haunglongbing (Citrus greening)",
+    "severity": "Unknown"
+  },
+  {
+    "id": 16,
+    "plant": "Peach",
+    "disease": "Bacterial spot",
+    "severity": "Unknown"
+  },
+  {
+    "id": 17,
+    "plant": "Peach",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 18,
+    "plant": "Pepper, bell",
+    "disease": "Bacterial spot",
+    "severity": "Unknown"
+  },
+  {
+    "id": 19,
+    "plant": "Pepper, bell",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 20,
+    "plant": "Potato",
+    "disease": "Early blight",
+    "severity": "Unknown"
+  },
+  {
+    "id": 21,
+    "plant": "Potato",
+    "disease": "Late blight",
+    "severity": "Unknown"
+  },
+  {
+    "id": 22,
+    "plant": "Potato",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 23,
+    "plant": "Raspberry",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 24,
+    "plant": "Soybean",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 25,
+    "plant": "Squash",
+    "disease": "Powdery mildew",
+    "severity": "Unknown"
+  },
+  {
+    "id": 26,
+    "plant": "Strawberry",
+    "disease": "Leaf scorch",
+    "severity": "Unknown"
+  },
+  {
+    "id": 27,
+    "plant": "Strawberry",
+    "disease": "healthy",
+    "severity": "Unknown"
+  },
+  {
+    "id": 28,
+    "plant": "Tomato",
+    "disease": "Bacterial spot",
+    "severity": "Unknown"
+  },
+  {
+    "id": 29,
+    "plant": "Tomato",
+    "disease": "Early blight",
+    "severity": "Unknown"
+  },
+  {
+    "id": 30,
+    "plant": "Tomato",
+    "disease": "Late blight",
+    "severity": "Unknown"
+  },
+  {
+    "id": 31,
+    "plant": "Tomato",
+    "disease": "Leaf Mold",
+    "severity": "Unknown"
+  },
+  {
+    "id": 32,
+    "plant": "Tomato",
+    "disease": "Septoria leaf spot",
+    "severity": "Unknown"
+  },
+  {
+    "id": 33,
+    "plant": "Tomato",
+    "disease": "Spider mites Two-spotted spider mite",
+    "severity": "Unknown"
+  },
+  {
+    "id": 34,
+    "plant": "Tomato",
+    "disease": "Target Spot",
+    "severity": "Unknown"
+  },
+  {
+    "id": 35,
+    "plant": "Tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus",
+    "severity": "Unknown"
+  },
+  {
+    "id": 36,
+    "plant": "Tomato",
+    "disease": "Tomato mosaic virus",
+    "severity": "Unknown"
+  },
+  {
+    "id": 37,
+    "plant": "Tomato",
+    "disease": "healthy",
+    "severity": "Unknown"
+  }
+]

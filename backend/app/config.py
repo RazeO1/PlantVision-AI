@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     DEBUG: bool = False
     
     # CORS - Add your Vercel domain here
-    CORS_ORIGINS: list[str] = ["*"]  # Restrict in production
+    CORS_ORIGINS: list[str] = ["http://localhost:3000", "http://127.0.0.1:3000"]  # Restrict in production
     
     # File upload limits
     MAX_UPLOAD_SIZE_MB: int = 10

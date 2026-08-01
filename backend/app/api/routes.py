@@ -110,24 +110,18 @@ async def predict(
                 request_id=request_id,
             ).model_dump(),
         )
+
     except Exception as e:
-        # Internal errors - don't expose details
-        logger.log(
-            request_id=request_id,
-            confidence=0.0,
-            prediction="error",
-            processing_time_ms=0.0,
-            model_version=settings.MODEL_VERSION,
-            error=str(e),
-        )
+        import traceback
+        traceback.print_exc()  # This prints the full error to your terminal
         return JSONResponse(
             status_code=500,
-            content=ErrorResponse(
-                success=False,
-                error="Prediction failed",
-                detail="An internal error occurred during processing",
-                request_id=request_id,
-            ).model_dump(),
+            content={
+                "success": False,
+                "error": "Prediction failed",
+                "detail": str(e),
+                "request_id": request_id,
+            },
         )
 
 
