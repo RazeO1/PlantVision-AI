@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     CORS_ORIGINS: list[str] = [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        os.getenv("FRONTEND_URL", "https://plantvision-ai.vercel.app"),
+        os.getenv("FRONTEND_URL", "https://plant-vision-ai-psi.vercel.app/"),
     ]
     
     # File upload limits
