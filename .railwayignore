@@ -1,0 +1,8 @@
+src/
+public/
+package.json
+package-lock.json
+next.config.js
+tailwind.config.ts
+tsconfig.json
+postcss.config.js
