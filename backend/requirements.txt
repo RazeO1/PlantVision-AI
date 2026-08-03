@@ -1,9 +1,11 @@
+--index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
 fastapi
 uvicorn[standard]
 python-multipart
 pillow
-torch
-torchvision
 numpy
 pydantic
 pydantic-settings
