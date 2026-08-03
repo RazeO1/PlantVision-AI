@@ -27,22 +27,14 @@ desktop.ini
 ############################
 # Frontend (Next.js)
 ############################
-frontend/node_modules/
-frontend/.next/
-frontend/out/
-frontend/build/
-frontend/dist/
-frontend/.turbo/
-frontend/coverage/
-frontend/*.tsbuildinfo
-dist/
-node_modules
 .next/
 out/
 build/
 .turbo/
 coverage/
 *.tsbuildinfo
+dist/
+node_modules
 
 ############################
 # Backend (Python)
@@ -63,7 +55,6 @@ backend/.ipynb_checkpoints/
 ############################
 # Logs
 ############################
-backend/logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -87,7 +78,7 @@ backend/*.egg-info/
 ############################
 # Deployment
 ############################
-frontend/.vercel/
+.vercel/
 
 ############################
 # Coverage
@@ -102,4 +93,3 @@ htmlcov/
 *.tmp
 *.temp
 *.bak
-
