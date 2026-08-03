@@ -71,16 +71,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 ############################
-# ML Models
-############################
-backend/models/*.pt
-backend/models/*.pth
-backend/models/*.ckpt
-backend/models/*.onnx
-backend/models/*.engine
-backend/models/*.safetensors
-
-############################
 # Python Build Files
 ############################
 backend/build/

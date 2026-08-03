@@ -4,6 +4,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
 from app.config import settings
 from app.core.model_loader import model_manager
@@ -29,10 +30,12 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# CORS - Configure for your Vercel domain in production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.CORS_ORIGINS,
+    allow_origins=[
+        "http://localhost:3000",
+        os.getenv("FRONTEND_URL", "https://plantvision-ai.vercel.app"),
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -50,3 +53,12 @@ async def root():
         "docs": "/docs",
         "health": "/api/v1/health",
     }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(
+        "app.main:app",
+        host="0.0.0.0",
+        port=int(os.getenv("PORT", 8000)),
+        reload=False,
+    )

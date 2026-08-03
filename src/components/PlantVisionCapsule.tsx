@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from "framer-motion";
 import { Scan, Activity, Zap } from "lucide-react";
+import { useMemo } from "react";
 
 export function PlantVisionCapsule() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -513,12 +514,12 @@ function ScannerBrackets({ isScanning }: { isScanning: boolean }) {
 function FloatingParticles({ isFlipped }: { isFlipped: boolean }) {
   const particles = Array.from({ length: 12 }, (_, i) => ({
     id: i,
-    x: `${10 + Math.random() * 80}%`,
-    y: `${10 + Math.random() * 80}%`,
-    size: 2 + Math.random() * 3,
-    duration: 3 + Math.random() * 3,
-    delay: Math.random() * 2,
-  }));
+    x: `${10 + (i * 73) % 80}%`,
+    y: `${15 + (i * 41) % 70}%`,
+    size: 2 + (i % 3),
+    duration: 3 + (i % 4),
+    delay: i * 0.2,
+}));
 
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">

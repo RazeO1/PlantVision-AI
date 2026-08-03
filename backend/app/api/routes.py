@@ -113,7 +113,7 @@ async def predict(
 
     except Exception as e:
         import traceback
-        traceback.print_exc()  # This prints the full error to your terminal
+        traceback.print_exc()
         return JSONResponse(
             status_code=500,
             content={
