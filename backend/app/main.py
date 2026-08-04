@@ -34,7 +34,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        os.getenv("FRONTEND_URL", "https://plantvision-ai.vercel.app"),
+        os.getenv("FRONTEND_URL", "https://plant-vision-ai-psi.vercel.app/"),
     ],
     allow_credentials=True,
     allow_methods=["*"],
