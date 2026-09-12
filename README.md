@@ -36,6 +36,8 @@ Detect plant diseases in seconds using deep learning, receive instant treatment 
 
 ---
 
+Live : https://plant-vision-ai-psi.vercel.app
+
 # 📖 Overview
 
 Plant diseases are one of the major causes of crop loss worldwide. Early detection can significantly reduce economic losses, improve crop yield, and help farmers make timely treatment decisions.
